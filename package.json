@@ -1,14 +1,14 @@
 {
-  "name": "docebo-accordion",
+  "name": "accordion-test",
   "version": "1.0.0",
-  "description": "Candidation test dicember 2018",
-  "main": "dist/accordion.js",
+  "description": "Accordion test dicember 2018",
+  "main": "js/accordion.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/angelarted/Accordion.git"
+    "url": "git+https://github.com/angelarted/accordion-test.git"
   },
   "author": "Simona Adriani",
-  "homepage": "https://github.com/angelrarted/Accordion#readme",
+  "homepage": "https://github.com/angelarted/accordion-test#readme",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.1.6",
