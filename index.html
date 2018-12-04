@@ -1,0 +1,59 @@
+<html>
+	<head>
+		<title>Accordion demo page</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material-Icons">
+		<link rel="stylesheet" href="./css/accordion.css">
+		<link rel="stylesheet" href="./css/styles.css">
+		<script
+  			src="https://code.jquery.com/jquery-1.12.4.min.js"
+  			integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  			crossorigin="anonymous"></script>
+		<script type="text/javascript" src="./js/accordion.js"></script>
+	</head>
+
+	<body>
+		<h1>Accordion demo page</h1>
+		<div id="my-accordion">
+
+		</div>
+
+		<div id="my-accordion-2">
+
+		</div>
+
+		<script type="text/javascript">
+			var options = {
+				container: 'my-accordion',
+				mainTitle: 'Main accordion title', //optional title header
+				panels: [{
+					title: 'My profile',
+					subtitle: 'Update your profile', //optional subtitle
+					content: '<p>HTML content for this panel</p>'
+				},{
+					title: 'Change password',
+					subtitle: 'Change your login password',
+					content: '<p>HTML <a href="/page.html">Phaesellus mollis</a> for this panel</p>'
+				}]
+			};
+			var options2 = {
+				container: 'my-accordion-2',
+				mainTitle: 'Main accordion title 2', //optional title header
+				panels: [{
+					title: 'My profile 2',
+					subtitle: 'Update your profile 2', //optional subtitle
+					content: '<p>HTML content for this panel 2</p>'
+				},{
+					title: 'Change password 2',
+					subtitle: 'Change your login password 2',
+					content: '<p>HTML <a href="/page.html">Phaesellus mollis</a> for this panel 2</p>'
+				}]
+			};
+			
+			var accordion = new Accordion(options);
+		
+			var accordion2 = new Accordion(options2);
+			
+		</script>
+	</body>
+</html>

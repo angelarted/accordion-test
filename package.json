@@ -1,0 +1,24 @@
+{
+  "name": "docebo-accordion",
+  "version": "1.0.0",
+  "description": "Candidation test dicember 2018",
+  "main": "dist/accordion.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelarted/Accordion.git"
+  },
+  "author": "Simona Adriani",
+  "homepage": "https://github.com/angelrarted/Accordion#readme",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.1"
+  }
+}
