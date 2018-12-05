@@ -10,7 +10,7 @@
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2); }
 
 .ac-row {
-  padding: 25px;
+  padding: 10px 25px 15px;
   border-bottom: 1px solid #e4e6ec; }
 
 .ac-main-title .heading--h2 {
@@ -19,24 +19,51 @@
   color: #333; }
 
 .ac-panel_title {
-  position: relative; }
+  position: relative;
+  cursor: pointer; }
   .ac-panel_title .heading--h3, .ac-panel_title .heading--h4, .ac-panel_title .ac-icon {
     pointer-events: none; }
   .ac-panel_title .heading--h3 {
     font-size: 14px;
     font-weight: 600;
     color: #0465ac;
-    margin-bottom: 10px; }
+    line-height: 26px; }
   .ac-panel_title .heading--h4 {
     font-size: 12px;
     font-weight: 600;
-    color: #999; }
+    color: #999;
+    margin-top: 6px; }
   .ac-panel_title .ac-icon {
     font-size: 26px;
     position: absolute;
     margin-left: 25px;
     right: 0;
-    color: #0465ac; }
+    color: #0465ac;
+    display: inline-block;
+    -webkit-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-filter: none;
+    filter: none;
+    -webkit-transition: -webkit-transform .3s, -webkit-filter .3s;
+    transition: -webkit-transform .3s, -webkit-filter .3s;
+    -o-transition: transform .3s, filter .3s;
+    transition: transform .3s, filter .3s;
+    transition: transform .3s, filter .3s, -webkit-transform .3s, -webkit-filter .3s; }
+  .ac-panel_title.ac--open .ac-icon {
+    -webkit-transform: scaleY(-1);
+    -ms-transform: scaleY(-1);
+    transform: scaleY(-1);
+    -webkit-filter: flipv;
+    filter: flipv;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 0;
+    -webkit-transition: -webkit-transform .3s, -webkit-filter .3s;
+    transition: -webkit-transform .3s, -webkit-filter .3s;
+    -o-transition: transform .3s, filter .3s;
+    transition: transform .3s, filter .3s;
+    transition: transform .3s, filter .3s, -webkit-transform .3s, -webkit-filter .3s; }
 
 .ac-panel_content {
   position: relative;

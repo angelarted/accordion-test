@@ -12,12 +12,15 @@ Accordion.prototype.print = function(){
 				<h2 class="heading--h2">'+this.mainTitle+'</h2>\
 			</div>';
 	var panels = '';
+	var subtitle = ''
 	for (i=0; i<this.panels.length; i++){
+		subtitle = this.panels[i].subtitle || '';
+		panelSubtitle = subtitle !== '' ? '<h4 class="heading--h4">'+this.panels[i].subtitle+'</h4>' : '';
 		panels+= '<div class="ac-row ac-panel">\
 					<div class="ac-panel_title">\
 						<i class="ac-icon material-icons">keyboard_arrow_down</i>\
 						<h3 class="heading--h3">'+this.panels[i].title+'</h3>\
-						<h4 class="heading--h4">'+this.panels[i].subtitle+'</h4>\
+						'+panelSubtitle+'\
 					</div>\
 					<div class="ac-panel_content">\
 						<div class="absolute-container">\
@@ -44,11 +47,13 @@ Accordion.prototype.bindBehaviour = function(){
 Accordion.prototype.togglePanel = function(e){
 	let content = e.target.nextElementSibling;
 	let contentHeight = content.firstElementChild.offsetHeight;
-	console.log(contentHeight)
+	console.log(e.target)
 	if(content.classList.contains('ac--open')){
-		content.style.height = 0;
+		e.target.classList.remove('ac--open');
 		content.classList.remove('ac--open');
+		content.style.height = 0;
 	} else {
+		e.target.classList.add('ac--open');
 		content.classList.add('ac--open');
 		content.style.height = contentHeight + 25;
 	}	
