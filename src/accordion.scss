@@ -17,16 +17,16 @@ $grey-divider: #e4e6ec;
 	box-shadow: 0px 2px 3px rgba(0,0,0,0.2);
 }
 .ac-row{
-	padding: 10px 25px 15px;
+	padding: 15px 25px;
 	border-bottom: 1px solid $grey-divider;
 }
-.ac-main-title{
+.ac-main_title{
+	padding: 20px 25px 21px; 
 	.heading--h2{
 		font-size: 18px;
-		font-weight: 600;
+		font-weight: 400;
 		color: $grey-content;
 	}
-	
 }
 .ac-panel{
 	&_title{
@@ -39,22 +39,24 @@ $grey-divider: #e4e6ec;
 			font-size: 14px;
 			font-weight: 600;
 			color: $azure;
-			line-height: 26px;
+			line-height: 20px;
 		}
 		.heading--h4{
 			font-size: 12px;
 			font-weight: 600;
 			color: $grey-description;
 			margin-top: 6px;
+			line-height: 18px;
 		}
 		.ac-icon{
 			font-size: 26px;
 			position: absolute;
 			margin-left: 25px;
 			right: 0;
+			top: 50%;
 			color: $azure;
 			display: inline-block;
-            transform: scaleY(1);
+            transform: scaleY(1) translateY(-50%);
             filter: none;
             transition: transform .3s, filter .3s;
 		}
@@ -82,12 +84,11 @@ $grey-divider: #e4e6ec;
 		&.ac--open{
 			display: block;
 			transition: height 1s, padding 1s, opacity 1s ease-in;
-			padding: 25px 0 0 0;
 			opacity: 1;
 		}
 		.absolute-container{
 			position: absolute;
-			top: 25px;
+			top: 23px;
 		}
 	}
 }

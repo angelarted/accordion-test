@@ -8,11 +8,14 @@ function Accordion(options) {
 
 //methods of the constructor are added to the prototype to save memery space
 Accordion.prototype.print = function(){
-	const template = '<div class="ac-row ac-main_title">\
+
+	let mainTitle = '';
+	let panels = '';
+	let subtitle = '';
+
+	mainTitle = this.mainTitle !== undefined ? '<div class="ac-row ac-main_title">\
 				<h2 class="heading--h2">'+this.mainTitle+'</h2>\
-			</div>';
-	var panels = '';
-	var subtitle = ''
+			</div>' : '';
 	for (i=0; i<this.panels.length; i++){
 		subtitle = this.panels[i].subtitle || '';
 		panelSubtitle = subtitle !== '' ? '<h4 class="heading--h4">'+this.panels[i].subtitle+'</h4>' : '';
@@ -30,7 +33,7 @@ Accordion.prototype.print = function(){
 				</div>';
 		}
 	const container = document.getElementById(this.container);
-	container.innerHTML = template;
+	container.innerHTML = mainTitle;
 	container.insertAdjacentHTML('beforeend',panels);
 }
 
