@@ -82,6 +82,7 @@ a,a:hover,a:focus,a:link,a:visited{
 /* variables */
 
 $grey_bg: #eee;
+$grey_outline: #e4e6ec;
 
 /* end variables */
 
@@ -101,8 +102,18 @@ body{
 	padding: 25px;
 }
 
-
-
+p{
+	padding: 5px 0;
+}
+input{
+	border: 1px solid $grey_outline;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 5px;
+	&[type="submit"]{
+		padding: 10px 20px;
+	}
+}
 
 /**
 * Material icon font

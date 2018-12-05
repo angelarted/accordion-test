@@ -39,10 +39,24 @@
     color: #0465ac; }
 
 .ac-panel_content {
-  margin-top: 25px;
-  display: none;
+  position: relative;
   font-size: 13px;
   font-weight: 400;
-  color: #333; }
+  color: #333;
+  -webkit-transition: height 1s, padding 1s, opacity 1s ease-in;
+  -o-transition: height 1s, padding 1s, opacity 1s ease-in;
+  transition: height 1s, padding 1s, opacity 1s ease-in;
+  padding: 0;
+  overflow: hidden;
+  opacity: 0;
+  height: 0; }
   .ac-panel_content.ac--open {
-    display: block; }
+    display: block;
+    -webkit-transition: height 1s, padding 1s, opacity 1s ease-in;
+    -o-transition: height 1s, padding 1s, opacity 1s ease-in;
+    transition: height 1s, padding 1s, opacity 1s ease-in;
+    padding: 25px 0 0 0;
+    opacity: 1; }
+  .ac-panel_content .absolute-container {
+    position: absolute;
+    top: 25px; }

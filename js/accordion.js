@@ -20,7 +20,9 @@ Accordion.prototype.print = function(){
 						<h4 class="heading--h4">'+this.panels[i].subtitle+'</h4>\
 					</div>\
 					<div class="ac-panel_content">\
-						'+this.panels[i].content+'\
+						<div class="absolute-container">\
+							'+this.panels[i].content+'\
+						</div>\
 					</div>\
 				</div>';
 		}
@@ -41,10 +43,14 @@ Accordion.prototype.bindBehaviour = function(){
 
 Accordion.prototype.togglePanel = function(e){
 	let content = e.target.nextElementSibling;
+	let contentHeight = content.firstElementChild.offsetHeight;
+	console.log(contentHeight)
 	if(content.classList.contains('ac--open')){
+		content.style.height = 0;
 		content.classList.remove('ac--open');
 	} else {
 		content.classList.add('ac--open');
+		content.style.height = contentHeight + 25;
 	}	
 }
 

@@ -31,7 +31,6 @@ $grey-divider: #e4e6ec;
 .ac-panel{
 	&_title{
 		position: relative;
-		
 		.heading--h3,.heading--h4,.ac-icon{
 			pointer-events: none;
 		}
@@ -55,13 +54,24 @@ $grey-divider: #e4e6ec;
 		}
 	}
 	&_content{
-		margin-top: 25px;
-		display: none;
+		position: relative;
 		font-size: 13px;
 		font-weight: 400;
 		color: $grey-content;
+		transition: height 1s, padding 1s, opacity 1s ease-in;
+		padding: 0;
+		overflow: hidden;
+		opacity: 0;
+		height: 0;
 		&.ac--open{
 			display: block;
+			transition: height 1s, padding 1s, opacity 1s ease-in;
+			padding: 25px 0 0 0;
+			opacity: 1;
+		}
+		.absolute-container{
+			position: absolute;
+			top: 25px;
 		}
 	}
 }
