@@ -1,0 +1,826 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"grigio",
+				"grigio-scuro-2"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"accordion",
+				"accordionContent"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"get",
+				"getType\tmethod"
+			],
+			[
+				"lesson",
+				"Lesson\tclass"
+			],
+			[
+				"my",
+				"myFunction\tlet"
+			],
+			[
+				"transl",
+				"translateX()\ttransform"
+			],
+			[
+				"ove",
+				"overflow"
+			],
+			[
+				"tin",
+				"tinyHeaderInitialized"
+			],
+			[
+				"max-",
+				"max-width\tproperty"
+			],
+			[
+				"min-",
+				"min-width\tproperty"
+			],
+			[
+				"max",
+				"maxHeight"
+			],
+			[
+				"pag",
+				"pageTop"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bp_des",
+				"bp_desktop_large"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"texr",
+				"text-decoration"
+			],
+			[
+				"baa-step",
+				"baa-step-summary"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"coo",
+				"cookie-notification-btn"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"current",
+				"current_bp"
+			],
+			[
+				"scrollify",
+				"ScrollifyConfig"
+			],
+			[
+				"curre",
+				"current_bp"
+			],
+			[
+				"third",
+				"thirdCard"
+			],
+			[
+				"playT",
+				"playThirdVideoReverse"
+			],
+			[
+				"playThi",
+				"playThirdVideo"
+			],
+			[
+				"playThirdV",
+				"playThirdVideoReverse"
+			],
+			[
+				"playSecond",
+				"playSecondVideoReverse"
+			],
+			[
+				"pla",
+				"playSecondVideo"
+			],
+			[
+				"play",
+				"playFirstVideoReverse"
+			],
+			[
+				"getE",
+				"getElementsByClassName"
+			],
+			[
+				"dis",
+				"distanceToTop"
+			],
+			[
+				"des",
+				"desktop-large"
+			],
+			[
+				"scrolli",
+				"scrollify-disabled"
+			],
+			[
+				"scroll",
+				"scrollStatus"
+			],
+			[
+				"con",
+				"container-xs"
+			],
+			[
+				"flex",
+				"flex-direction"
+			],
+			[
+				"de",
+				"desktop"
+			],
+			[
+				"off",
+				"offset-lg-3"
+			],
+			[
+				"offse",
+				"offset-sm-2"
+			],
+			[
+				"text",
+				"text-container"
+			],
+			[
+				"desk",
+				"desktop-large"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"tra",
+				"transform"
+			],
+			[
+				"numero",
+				"numeroImmagine"
+			],
+			[
+				"hi",
+				"hidden"
+			],
+			[
+				"anima",
+				"animation-container"
+			],
+			[
+				"page",
+				"pageYOffset"
+			],
+			[
+				"bp",
+				"current_bp"
+			],
+			[
+				"di",
+				"disable-scroll"
+			],
+			[
+				"over",
+				"overflow-x"
+			],
+			[
+				"he",
+				"adaptiveHeight"
+			],
+			[
+				"main",
+				"main-logo"
+			],
+			[
+				"third-leve",
+				"third-level-item"
+			],
+			[
+				"secondLe",
+				"secondLevelDiv"
+			],
+			[
+				"order",
+				"order-xs-second"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"fi",
+				"firstMenuLabel"
+			],
+			[
+				"fir",
+				"firstMenuLabel"
+			],
+			[
+				"this",
+				"thisHeightMenu"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"second-leve",
+				"second-level-item"
+			],
+			[
+				"transitio",
+				"transition-delay"
+			],
+			[
+				"vi",
+				"visibility"
+			],
+			[
+				"transla",
+				"translateY"
+			],
+			[
+				"media",
+				"mediaPhone"
+			],
+			[
+				"u",
+				"url()\tbackground-image"
+			],
+			[
+				"xs-fl",
+				"xs-flex-row"
+			],
+			[
+				"justify-content",
+				"justify-content-end"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"item",
+				"item-image-bg"
+			],
+			[
+				"big",
+				"bigImbRegEx"
+			],
+			[
+				"focus",
+				"focuspoint-img-cont"
+			],
+			[
+				"fo",
+				"focuspoint-img-cont"
+			],
+			[
+				"curp",
+				"curplayer031"
+			],
+			[
+				"videoP",
+				"videoPlayer031"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"flec",
+				"flex-column-md"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"mediaDe",
+				"mediaDesktop"
+			],
+			[
+				"playe",
+				"playerId"
+			],
+			[
+				"background-",
+				"background-size"
+			],
+			[
+				"med",
+				"mediaDesktop"
+			],
+			[
+				"mediaDesktop",
+				"mediaDesktopL"
+			],
+			[
+				"medi",
+				"mediaPhone"
+			],
+			[
+				"player",
+				"playerInfoList"
+			],
+			[
+				"stop",
+				"stopVideoOnSlideChange"
+			],
+			[
+				"vide",
+				"videoPlayer"
+			],
+			[
+				"playr",
+				"playerInfo"
+			],
+			[
+				"chec",
+				"checkbox-label"
+			],
+			[
+				"mediaDes",
+				"mediaDesktop"
+			],
+			[
+				"prev",
+				"prev_bp"
+			],
+			[
+				"is",
+				"isHundred16-9"
+			],
+			[
+				"isHun",
+				"isHundred16-9"
+			],
+			[
+				"slide",
+				"sliderSlick"
+			],
+			[
+				"btn",
+				"btnShowMore"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"google",
+				"googleKey"
+			],
+			[
+				"goog",
+				"googleApiKey"
+			],
+			[
+				"goo",
+				"googleKey"
+			],
+			[
+				"sc",
+				"screenOrientation"
+			],
+			[
+				"googl",
+				"googleMapUrlPrint"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"meia",
+				"mediaPhone"
+			],
+			[
+				"welcom",
+				"welcome-message-title"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"char",
+				"carachtersLeft"
+			],
+			[
+				"cha",
+				"carachterdLeft"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"title",
+				"title--h4"
+			],
+			[
+				"select",
+				"select2-selection"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"slected",
+				"selectedStore"
+			],
+			[
+				"am-a",
+				"am-accordion-header"
+			],
+			[
+				"val",
+				"valToScroll"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"am-acc",
+				"am-accordion-open"
+			],
+			[
+				"star",
+				"start_time"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/utente/Documents/LAVORI/SEBASTIANELLI/github repository/source/components/MASTER/main.scss",
+		"/Users/utente/Documents/LAVORI/SEBASTIANELLI/github repository/source/components/element/newsletter-form/newsletter-form.html",
+		"/Users/utente/Documents/LAVORI/SEBASTIANELLI/github repository/source/scripts/custom/custom.js",
+		"/Users/utente/Documents/LAVORI/SEBASTIANELLI/github repository/source/components/MASTER/_vars.scss",
+		"/Users/utente/Documents/LAVORI/SEBASTIANELLI/github repository/source/components/element/newsletter-form/newsletter-form.scss",
+		"/Users/utente/Documents/LAVORI/SEBASTIANELLI/github repository/source/pages/index.html",
+		"/Users/utente/Documents/LAVORI/SEBASTIANELLI/github repository/source/data/prodotti.json",
+		"/Users/utente/Documents/LAVORI/SEBASTIANELLI/github repository/source/data/servizi.json",
+		"/Users/utente/Documents/LAVORI/accordion-test/package.json",
+		"/Users/utente/Documents/LAVORI/accordion-test/js/accordion.js",
+		"/Users/utente/Documents/LAVORI/docebo-test/js/accordion.js",
+		"/Users/utente/Documents/LAVORI/docebo-test/gulpfile.js",
+		"/Users/utente/Documents/LAVORI/docebo-test/index.html",
+		"/Users/utente/Documents/LAVORI/docebo-test/css/styles.scss",
+		"/Users/utente/Documents/LAVORI/docebo-test/css/accordion.scss",
+		"/Volumes/Storage Mac/LAVORI/AMPLIFON-AMA/static/src/components/store-locator/store-locator-accordion/accordion.js",
+		"/Volumes/Storage Mac/LAVORI/AMPLIFON-AMA/static/src/components/store-locator/store-locator-accordion/accordion.scss",
+		"/Volumes/Storage Mac/LAVORI/AMPLIFON-AMA/static/src/components/store-locator/store-locator-accordion/store-locator-accordion.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/menu/menu5.scss",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/menu/menu5.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/MASTER/main.scss",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/menu/menu0.scss",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/menu/menu1.scss",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/menu/menu2.scss",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/menu/menu3.scss",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/menu/menu4.scss",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/js/custom.js",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/MASTER/head.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/schede/scheda-francoforte-es.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/schede/scheda-salerno-es.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/schede/scheda-tampere-fr.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/schede/scheda-santafe-fr.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/schede/scheda-salerno-fr.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/schede/scheda-porto-fr.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/schede/scheda-perth-fr.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/schede/scheda-malta-fr.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/schede/scheda-francoforte-fr.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/schede/scheda-bruxelles-fr.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/schede/scheda-tampere-es.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/schede/scheda-bruxelles-es.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/schede/scheda-malta-es.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/schede/scheda-perth-es.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/schede/scheda-porto-es.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/schede/scheda-santafe-es.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/schede/scheda-tampere-it.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/schede/scheda-salerno-it.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/schede/scheda-francoforte-it.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/schede/scheda-perth-it.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/schede/scheda-porto-it.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/pages/start-es.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/pages/FTE-world-es.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/schede/scheda-santafe-it.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/schede/scheda-malta-it.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/schede/scheda-bruxelles-it.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/pages/index.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/pages/start-fr.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/pages/start-de.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/pages/start-en.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/schede/schede-en.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/pages/start-it.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/video/video-mappa-it.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/pages/FTE-world-it.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/schede/schede-it.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/pages/FTE-world-fr.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/pages/how-does-it-work-fr.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/pages/FTE-world-de.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/pages/how-does-it-work-de.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/pages/FTE-world-en.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/schede/schede-es.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/video/video-mappa-es.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/pages/how-does-it-work.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/pages/how-does-it-work-it.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/schede/scheda-bruxelles-de.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/schede/scheda-bruxelles.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/images/flag-de.svg",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/pages/how-does-it-work-es.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/pages/how-does-it-work-en.html",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/video/video-how-work.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chillventa-v3/src/js/custom.js",
+		"/Volumes/Storage Mac/LAVORI/chillventa-v3/src/components/video/video-how-work-fr.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chillventa-v3/src/components/video/video-how-work.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chillventa-v3/src/pages/how-does-it-work-en.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chillventa-v3/src/components/menu/menu5.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chillventa-v3/src/pages/index.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chillventa-v3/src/pages/FTE-world-en.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chillventa-v3/src/components/video/video-mappa-en.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chillventa-v3/src/components/video/video-home.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chillventa-v3/src/pages/how-does-it-work.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chillventa-v3/gulpfile.js",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chillventa-v3/src/components/load-scripts/load-scripts.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/AMPLIFON-AMA/static/src/components/book-an-appointment/book-an-appointment.js",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chillventa-v3/bower.json",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chillventa-v3/src/components/video/video-home-sub.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chillventa-v3/src/pages/FTE-world-de.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chillventa-v3/src/components/video/video-how-work-de.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chilventa/src/js/custom.js",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chilventa/src/components/schede/scheda-porto-de.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chilventa/src/components/schede/scheda-porto-es.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chilventa/src/components/schede/scheda-santafe-fr.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chilventa/src/components/schede/scheda-porto-fr.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chilventa/src/components/schede/scheda-francoforte-de.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chilventa/src/components/schede/scheda-francoforte.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chilventa/src/components/schede/scheda-salerno.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chilventa/src/components/schede/scheda-salerno-fr.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chilventa/src/components/schede/scheda-francoforte-fr.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chilventa/src/components/schede/scheda-tampere.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chilventa/src/components/schede/scheda-tampere-fr.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chilventa/src/components/schede/scheda-tampere-es.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chilventa/src/components/schede/scheda-salerno-es.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chilventa/src/components/schede/scheda-tampere-de.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chilventa/src/components/schede/scheda-salerno-de.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chilventa/src/components/schede/scheda-santafe.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chilventa/src/components/schede/scheda-santafe-es.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chilventa/src/components/schede/scheda-santafe-de.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chilventa/src/components/schede/scheda-porto.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chilventa/src/components/schede/scheda-perth.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chilventa/src/components/schede/scheda-perth-fr.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chilventa/src/components/schede/scheda-perth-es.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chilventa/src/components/schede/scheda-perth-de.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chilventa/src/components/schede/scheda-malta.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chilventa/src/components/schede/scheda-malta-fr.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chilventa/src/components/schede/scheda-malta-es.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chilventa/src/components/schede/scheda-malta-de.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chilventa/src/components/schede/scheda-francoforte-es.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chilventa/src/components/schede/scheda-bruxelles-fr.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chilventa/src/components/schede/scheda-bruxelles-es.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chilventa/src/components/schede/scheda-bruxelles-de.html",
+		"/Volumes/Storage Mac/SIMONA/LAVORI/chilventa/src/components/schede/scheda-bruxelles.html"
+	],
+	"find":
+	{
+		"height": 42.0
+	},
+	"find_in_files":
+	{
+		"height": 116.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sebastianelli.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/LAVORI/LEROY MARLIN/sito2015/lm-webpages/pages/static/gallery-mobili-bagno-prototipo.client.view.html"
+			],
+			[
+				"tablet",
+				"~/Documents/LAVORI/LEROY MARLIN/sito2015/lm-webpages/pages/static/festa-del-bricolage.client.view.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"==="
+			]
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 217.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

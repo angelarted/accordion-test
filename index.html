@@ -2,29 +2,53 @@
 	<head>
 		<title>Accordion demo page</title>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material-Icons">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="stylesheet" href="./css/accordion.css">
 		<link rel="stylesheet" href="./css/styles.css">
-		<script
-  			src="https://code.jquery.com/jquery-1.12.4.min.js"
-  			integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-  			crossorigin="anonymous"></script>
 		<script type="text/javascript" src="./js/accordion.js"></script>
 	</head>
 
 	<body>
-		<div class="demo-accordion-page-wrapper">
-			<div class="accordion-wrapper">
-				<h1>Accordion demo page</h1>
-				<div id="my-accordion">
+		<div class="demo-ac-page-wrapper">
+			
+			<h1 class="page-title">Accordion demo page</h1>
 
-				</div>
+			<div id="my-accordion" class="ac-wrapper">
 
-				<div id="my-accordion-2">
-
-				</div>
 			</div>
+
+			<div id="my-accordion-2" class="ac-wrapper">
+
+			</div>
+
+			<div id="my-accordion-3" class="ac-wrapper">
+					<div class="ac-row ac-main_title">
+						<h2 class="heading--h2">Main accordion title 3</h2>
+					</div>
+					<div class="ac-row ac-panel">
+						<div class="ac-panel_title">
+							<i class="ac-icon material-icons">keyboard_arrow_down</i>
+							<h3 class="heading--h3">My profile 2</h3>
+							<h4 class="heading--h4">Update your profile 3</h4>
+						</div>
+						<div class="ac-panel_content">
+							<p>HTML content for this panel 3</p>
+						</div>
+					</div>
+					<div class="ac-row ac-panel">
+						<div class="ac-panel_title">
+							<i class="ac-icon material-icons">keyboard_arrow_down</i>
+							<h3 class="heading--h3">My profile 2</h3>
+							<h4 class="heading--h4">Update your profile 3</h4>
+						</div>
+						<div class="ac-panel_content">
+							<p>HTML content for this panel 3</p>
+						</div>
+					</div>
+			</div>
+
 		</div>
+
 
 		<script type="text/javascript">
 			var options = {
@@ -37,7 +61,11 @@
 				},{
 					title: 'Change password',
 					subtitle: 'Change your login password',
-					content: '<p>HTML <a href="/page.html">Phaesellus mollis</a> for this panel</p>'
+					content: '<form action="/action_page.php">\
+  								First name: <input type="text" name="fname"><br>\
+ 								Last name: <input type="text" name="lname"><br>\
+  								<input type="submit" value="Submit">\
+							  </form>'
 				}]
 			};
 			var options2 = {

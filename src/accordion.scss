@@ -1,13 +1,68 @@
-.ac-panel_title{
-	h2{
-		pointer-events: none;
-	}
+/***** 
+* variables 
+******/
 
-}
-.ac-panel_content{
-	display: none;
+$azure: #0465ac;
+$grey-description: #999;
+$grey-content: #333;
+$grey-divider: #e4e6ec;
 
-	&.ac--open{
-		display: block;
+/* end variables */
+
+
+.ac-wrapper{
+	width: 100%;
+	background: white;
+	margin-bottom: 30px;
+	box-shadow: 0px 2px 3px rgba(0,0,0,0.2);
+}
+.ac-row{
+	padding: 25px;
+	border-bottom: 1px solid $grey-divider;
+}
+.ac-main-title{
+	.heading--h2{
+		font-size: 18px;
+		font-weight: 600;
+		color: $grey-content;
+	}
+	
+}
+.ac-panel{
+	&_title{
+		position: relative;
+		
+		.heading--h3,.heading--h4,.ac-icon{
+			pointer-events: none;
+		}
+		.heading--h3{
+			font-size: 14px;
+			font-weight: 600;
+			color: $azure;
+			margin-bottom: 10px;
+		}
+		.heading--h4{
+			font-size: 12px;
+			font-weight: 600;
+			color: $grey-description;
+		}
+		.ac-icon{
+			font-size: 26px;
+			position: absolute;
+			margin-left: 25px;
+			right: 0;
+			color: $azure;
+		}
+	}
+	&_content{
+		margin-top: 25px;
+		display: none;
+		font-size: 13px;
+		font-weight: 400;
+		color: $grey-content;
+		&.ac--open{
+			display: block;
+		}
 	}
 }
+

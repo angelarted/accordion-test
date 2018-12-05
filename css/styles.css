@@ -77,13 +77,44 @@ a, a:hover, a:focus, a:link, a:visited {
   display: none; }
 
 /* end reset */
+/* variables */
+/* end variables */
 body {
-  background: #eee; }
+  background: #eee;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size: 16px;
+  color: black; }
 
-.demo-accordion-page-wrapper {
+.page-title {
+  font-size: 30px;
+  padding: 25px 0; }
+
+.demo-ac-page-wrapper {
   width: 100%;
   padding: 25px; }
-  .demo-accordion-page-wrapper .accordion-wrapper {
-    width: 100%;
-    padding: 25px;
-    background: white; }
+
+/**
+* Material icon font
+**/
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  -webkit-font-feature-settings: 'liga';
+  font-feature-settings: 'liga'; }
