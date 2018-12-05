@@ -94,7 +94,8 @@ body {
   padding: 25px; }
 
 p {
-  padding: 5px 0; }
+  padding: 5px 0;
+  line-height: 20px; }
 
 input {
   border: 1px solid #e4e6ec;

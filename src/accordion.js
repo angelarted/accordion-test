@@ -18,6 +18,7 @@ Accordion.prototype.print = function(){
 			</div>' : '';
 	for (i=0; i<this.panels.length; i++){
 		subtitle = this.panels[i].subtitle || '';
+		//description must be limited to one row
 		panelSubtitle = subtitle !== '' ? '<h4 class="heading--h4">'+this.panels[i].subtitle+'</h4>' : '';
 		panels+= '<div class="ac-row ac-panel">\
 					<div class="ac-panel_title">\
@@ -41,23 +42,24 @@ Accordion.prototype.bindBehaviour = function(){
 	this.accordionHeader = document.querySelectorAll('.ac-panel_title') 
 
 	for(i=0;i <this.accordionHeader.length;i++){
-		console.log('o')
 		this.accordionHeader[i].addEventListener('click',this.togglePanel,false);
 	}
 	
 }
 
 Accordion.prototype.togglePanel = function(e){
+	let panel = e.target.parentNode;
 	let content = e.target.nextElementSibling;
 	let contentHeight = content.firstElementChild.offsetHeight;
-	console.log(e.target)
 	if(content.classList.contains('ac--open')){
 		e.target.classList.remove('ac--open');
 		content.classList.remove('ac--open');
+		panel.classList.remove('ac--open');
 		content.style.height = 0;
 	} else {
 		e.target.classList.add('ac--open');
 		content.classList.add('ac--open');
+		panel.classList.add('ac--open');
 		content.style.height = contentHeight + 25;
 	}	
 }
