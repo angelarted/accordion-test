@@ -1,6 +1,18 @@
+/***********************************************
+ * Reusable Accordion Component v1.0.0
+ * Simple accordion created in pure Javascript.
+ * https://github.com/angelarted/accordion-test/
+***********************************************/
 
-//accordion constructor
+
+/**
+ * Accordion constructor
+ * @param container {string/mandatory} = the name of 'id' that will contain the accordion
+ * @param mainTitle  {string/optional}= the main title of the accordion
+ * @param panels {objec/mandatory} = object containing accordion panels info 
+*/
 function Accordion(options) {
+	
 	this.container = options.container;
 	this.mainTitle = options.mainTitle;
 	this.panels = options.panels;
@@ -8,22 +20,27 @@ function Accordion(options) {
 	this.init();
 }
 
-//methods of the constructor are added to the prototype to save memery space
+/*
+ * Methods are added to the prototype 
+ * to save memory space
+*/
 Accordion.prototype = {
 
+	/*
+	 * Building templates and printing HTML Accordion in DOM
+	*/
 	print: function(){
+		//Templatas variable listing
 		let mainTitle = '';
 		let panels = '';
 		let subtitle = '';
 
-		/******
-		* definition of errors if some required option are not set
-		******/
+		//Errors definitions, if some required option are not set
 		if(this.container === undefined){
-			throw new Error('Container id is a required option');
+			throw new Error('You must define a container id');
 		}
 		if(this.panels === undefined){
-			throw new Error('Panels is a required option object');
+			throw new Error('You must define at least one panel');
 		}
 		for(i=0;i<this.panels.length;i++){
 			if(this.panels[i].title === undefined){
@@ -34,35 +51,23 @@ Accordion.prototype = {
 			}
 		}
 
-		/******
-		* main title is optional so if it is not given 
-		* we set it as an empty string
-		******/
+		//Managing 'maintTitle' optional existence
 		mainTitle = this.mainTitle !== undefined ? '<div class="ac-row ac-main_title">\
 				<h2 class="heading--h2">'+this.mainTitle+'</h2>\
 			</div>' : '';
 
-		/*****
-		* filling panels template
-		*****/
+		//Filling panels template
 		for (i=0; i<this.panels.length; i++){
 
-			//subtitle is optional
-			subtitle = this.panels[i].subtitle || '';
 
-			//description (subtitle) must be limited to one row
-			/*****
-			* since I cannot determine which is the max character length for the subtile
-			* because the accordion is fluid, i decided to use ellipsis css rule
-			* to be sure every text inserted in the options we be always shown on one row
-			*****/
-			panelSubtitle = subtitle !== '' ? '<h4 class="heading--h4">\
+			//Constructing subtitle template managing its optionability - one row constrain managed via css
+			panelSubtitle = this.panels[i].subtitle !== undefined ? '<h4 class="heading--h4">\
 				<div class="ellipsis-container">\
-					'+subtitle+'\
+					'+this.panels[i].subtitle+'\
 				</div>\
 			</h4>' : '';
 
-			//real panels html template
+			//Final HTML panels template
 			panels+= '<div class="ac-row ac-panel">\
 						<div class="ac-panel_title">\
 							<i class="ac-icon material-icons">keyboard_arrow_down</i>\
@@ -77,93 +82,103 @@ Accordion.prototype = {
 					</div>';
 			}
 
-		//defining the html container for the accordion
+		//Defining the html container for the accordion
 		const container = document.getElementById(this.container);
 
-		//printing the title if exists
+		//Printing the main accordion title if exists
 		if(mainTitle !== '') container.innerHTML = mainTitle;
 
-		//priting panels into the container
+		//Priting panels into the container
 		container.insertAdjacentHTML('beforeend',panels);
 	},
 
+	/*
+	 * Binging behaviour to target
+	*/
 	bindBehaviour: function(){
 
-		//the accordion must open on click over the panel title 
+		//Defining sensible click area - sensible area managed via css
 		this.accordionHeader = document.querySelectorAll('.ac-panel_title');
 
-		//binding the toggle behaviour to the accordion title
+		//Binding the toggle behaviour to the panels title
 		for(i=0;i <this.accordionHeader.length;i++){
 			this.accordionHeader[i].addEventListener('click',this.togglePanel,false);
 		}	
 	},
 
+	/*
+	* Defining accordion behaviour
+	*/
 	togglePanel: function(e){
-		//defining elements of the panel that must be animated
+		/***
+		 * Variables listing
+		 * @panel = the container of the entire panel
+		 * @content = the div containg hidden content, to be shown on click
+		 * @contentHeihg = the height of the absolute positioned element wrapping the content
+		*/
 		let panel = e.target.parentNode;
 		let content = e.target.nextElementSibling;
-
-		/****
-		* content height is needed to determine the height of the content to be
-		* set through inline css, to make it work the slide-up, slide-down animation.
-		* In this case the trick was to wrap the panel content into an absolute positioned
-		* div (content.firstElementChild), that will be hidden by the 'content' div, 
-		* which has height = 0 and 'overflow:hidden' property. Than, when the header 
-		* is clicked, the height will be set to the container, and the animated property 
-		* 'heigh' of the container will make the slide-up, slide-down effect
-		*******/
 		let contentHeight = content.firstElementChild.offsetHeight;
 
-		/*
-		* main accordion behaviour 
-		*/
-		if(panel.classList.contains('ac--open')){
-			//simply add or remove class to the panel wrapper
-			panel.classList.remove('ac--open');
-			//to be used in resize function
-			content.classList.remove('ac-content--open');
-			//set the height of the container
-			content.style.height = 0;
-		} else {
+		//Main accordion behaviour 		
+		if(!panel.classList.contains('ac--open')){
+			/***
+			* Case 'open'
+			* 1) Add class to the main panel wrapper
+			* 2) Add class to the content wrapper (to be used on window resize)
+			* 3) Set the height of the content to make slide-down work
+			****/
 			panel.classList.add('ac--open');
 			content.classList.add('ac-content--open')
-			content.style.height = contentHeight + 25;//25 is the containet fixed padding
+			content.style.height = contentHeight + 25; //25 is the container fixed padding
+
+		} else {
+			//Reverse if it is 'close' case
+			panel.classList.remove('ac--open');
+			content.classList.remove('ac-content--open');
+			content.style.height = 0;
 		}
 	},
 
 	/*
-	* resize panel content height on window resize
+	 * Resize panel content height on window resize event
 	*/
 	onResize: function(){
-		//bind behaviour to resize window event
+
 		window.addEventListener('resize', function() {
-			//find all opened panels
+			//Targeting all opened panels
 			let activeElement = document.querySelectorAll('.ac-content--open');
         	
         	if(activeElement.length) {
-           		//calculate new height of internal absolute div 
-           		//and set new height to container
+           		
+           		
         		for(i=0;i<activeElement.length;i++){
+        			//Calculating new height of internal absolute div 
         			let newHeight = activeElement[i].firstElementChild.offsetHeight;
+           			//Set container to new height
            			activeElement[i].style.height = newHeight + 25;//fixed padding
            		}
         	}
         });
 	},
 
+	//TO DO? CLOSE ALL PANELS WHEN ONE IS OPENED? 
+
+	/*
+	 * Accordion intialization
+	*/
 	init: function(){
 		try{
-			//first print the accordion html
+
+			//Print accordion HTML in page
 			this.print();
-			//attach behaviours to it
+			//Attach behaviours to it
 			this.bindBehaviour();
-			//attach behaviour for resize event
+			//Attach behaviour for resize event
 			this.onResize();
 
 		} catch(error){
-
 			console.error(error);
-
 		}
 	}
 }
