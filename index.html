@@ -20,37 +20,7 @@
 			<div id="my-accordion-2" class="ac-wrapper">
 
 			</div>
-
-			<!--div id="my-accordion-3" class="ac-wrapper">
-					<div class="ac-row ac-main_title">
-						<h2 class="heading--h2">Main accordion title 3</h2>
-					</div>
-					<div class="ac-row ac-panel">
-						<div class="ac-panel_title">
-							<i class="ac-icon material-icons">keyboard_arrow_down</i>
-							<h3 class="heading--h3">My profile 2</h3>
-							<h4 class="heading--h4">Update your profile 3</h4>
-						</div>
-						<div class="ac-panel_content">
-							<div class="absolute-container">
-								<p>HTML content for this panel 3</p>
-							</div>
-						</div>
-					</div>
-					<div class="ac-row ac-panel">
-						<div class="ac-panel_title">
-							<i class="ac-icon material-icons">keyboard_arrow_down</i>
-							<h3 class="heading--h3">My profile 2</h3>
-							<h4 class="heading--h4">Update your profile 3</h4>
-						</div>
-						<div class="ac-panel_content">
-							<div class="absolute-container">
-								<p>HTML content for this panel 3</p>
-							</div>
-						</div>
-					</div>
-			</div-->
-
+			
 		</div>
 
 
@@ -64,7 +34,7 @@
 					content: '<p>HTML content for this panel</p>'
 				},{
 					title: 'Change password',
-					subtitle: 'Change your login password',
+					subtitle: 'Change your login password, form example',
 					content: '<p>Here you can change your password:</p>\
 							<form action="/action_page.php">\
   								Old password: <input type="text" name="oldpwd"><br />\
@@ -83,16 +53,16 @@
 			var options2 = {
 				container: 'my-accordion-2',
 				panels: [{
-					title: 'My profile 2',
+					title: 'Long description on one row',
 					subtitle: 'Very long description on one row, consectetur adipiscing elit. Nullam in pharetra justo. Aliquam turpis mi, blandit eu enim vitae, varius lacinia ante. Nam sit amet tincidunt orci. Suspendisse tincidunt ante porttitor nisi elementum, ac gravida massa convallis. Nullam fringilla vulputate magna. Mauris iaculis blandit dui, luctus hendrerit odio dapibus et', //optional subtitle
 					content: '<p>HTML content for this panel 2</p>'
 				},{
-					title: 'Change password 2',
-					subtitle: 'Change your login password 2',
+					title: 'Long content',
+					subtitle: 'Long content text for resize test',
 					content: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in pharetra justo. Aliquam turpis mi, blandit eu enim vitae, varius lacinia ante. Nam sit amet tincidunt orci. Suspendisse tincidunt ante porttitor nisi elementum, ac gravida massa convallis. Nullam fringilla vulputate magna. Mauris iaculis blandit dui, luctus hendrerit odio dapibus et. Curabitur pretium mauris in sagittis vestibulum. Nam vel rhoncus enim. Maecenas placerat est eget tellus gravida euismod. Ut suscipit tempus dignissim. Phasellus sed ex id sem viverra dapibus. Etiam purus tortor, sodales vel aliquet in, dignissim non mi. Maecenas id varius magna.</p>'
 				}]
 			};
-			
+			 
 			var accordion = new Accordion(options);
 		
 			var accordion2 = new Accordion(options2);

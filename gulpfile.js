@@ -43,13 +43,11 @@ function serve() {
 
 var build = gulp.series(gulp.parallel(styles, scripts));
 
-
 function watch() {
   gulp.watch(sassSrc, styles);
   gulp.watch(scriptSrc, scripts).on('change', reload);
   gulp.watch('./*.html' ).on('change', reload);
 }
-
 
 gulp.task('sass', styles );
 gulp.task('scripts', scripts );
