@@ -8,7 +8,7 @@
 /**
  * Accordion constructor
  * @param container {string/mandatory} = the name of 'id' that will contain the accordion
- * @param mainTitle  {string/optional}= the main title of the accordion
+ * @param mainTitle {string/optional} = the main title of the accordion
  * @param panels {objec/mandatory} = object containing accordion panels info 
 */
 function Accordion(options) {
@@ -33,7 +33,7 @@ Accordion.prototype = {
 		//Templatas variable listing
 		let mainTitle = '';
 		let panels = '';
-		let subtitle = '';
+		let panelSubtitle = '';
 
 		//Errors definitions, if some required option are not set
 		if(this.container === undefined){
